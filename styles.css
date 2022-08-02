@@ -10,7 +10,7 @@ body
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Gilroy";
     font-weight: 100;
     text-decoration: none;
 }
@@ -54,9 +54,9 @@ nav li
 }
 nav li a
 {
-    padding-bottom: 11px;
+    padding-bottom: 13px;
     color: #D3E3F0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gilroy';
     font-weight: 100;
     font-size: large;
     text-decoration: none;
@@ -95,7 +95,7 @@ nav li.active
 .menu-lower
 {
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gilroy';
     font-weight: bold;
     font-size: large;
     color: #e8f5ff;
@@ -633,4 +633,16 @@ to {opacity: 1}
     width: 10px;
     border-radius: 5px;
     background-color: #0F4A73;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./font/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('./font/Gilroy-Light.eot') format('embedded-opentype'),
+        url('./font/Gilroy-Light.woff2') format('woff2'),
+        url('./font/Gilroy-Light.woff') format('woff'),
+        url('./font/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
