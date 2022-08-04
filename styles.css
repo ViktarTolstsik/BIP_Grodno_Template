@@ -324,6 +324,7 @@ padding-right: 1em;
     font-size: smaller;
     width: 150px;
     background-color: #D3E3F0;
+    border: solid 2px transparent;
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.37);
 }
 .links-item:hover
